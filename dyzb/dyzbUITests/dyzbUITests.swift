@@ -1,6 +1,6 @@
 //
-//  dyzbUITests.swift
-//  dyzbUITests
+//  DYZBUITests.swift
+//  DYZBUITests
 //
 //  Created by 高雪峰 on 2018/8/26.
 //  Copyright © 2018年 高雪峰. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class dyzbUITests: XCTestCase {
+class DYZBUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
