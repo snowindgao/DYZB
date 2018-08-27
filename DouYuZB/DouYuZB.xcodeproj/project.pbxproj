@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		50836DD821340FF10061BE8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50836DD721340FF10061BE8C /* AppDelegate.swift */; };
-		50836DDA21340FF10061BE8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50836DD921340FF10061BE8C /* ViewController.swift */; };
 		50836DDD21340FF10061BE8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50836DDB21340FF10061BE8C /* Main.storyboard */; };
 		50836DDF21340FF10061BE8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50836DDE21340FF10061BE8C /* Assets.xcassets */; };
 		50836DE221340FF10061BE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50836DE021340FF10061BE8C /* LaunchScreen.storyboard */; };
 		50836DED21340FF10061BE8C /* DouYuZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50836DEC21340FF10061BE8C /* DouYuZBTests.swift */; };
 		50836DF821340FF10061BE8C /* DouYuZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50836DF721340FF10061BE8C /* DouYuZBUITests.swift */; };
+		50836E06213438F30061BE8C /* classes in Resources */ = {isa = PBXBuildFile; fileRef = 50836E05213438F30061BE8C /* classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		50836DD421340FF10061BE8C /* DouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50836DD721340FF10061BE8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50836DD921340FF10061BE8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50836DDC21340FF10061BE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50836DDE21340FF10061BE8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50836DE121340FF10061BE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		50836DF321340FF10061BE8C /* DouYuZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50836DF721340FF10061BE8C /* DouYuZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuZBUITests.swift; sourceTree = "<group>"; };
 		50836DF921340FF10061BE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50836E05213438F30061BE8C /* classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		50836DD621340FF10061BE8C /* DouYuZB */ = {
 			isa = PBXGroup;
 			children = (
+				50836E05213438F30061BE8C /* classes */,
 				50836DD721340FF10061BE8C /* AppDelegate.swift */,
-				50836DD921340FF10061BE8C /* ViewController.swift */,
 				50836DDB21340FF10061BE8C /* Main.storyboard */,
 				50836DDE21340FF10061BE8C /* Assets.xcassets */,
 				50836DE021340FF10061BE8C /* LaunchScreen.storyboard */,
@@ -230,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50836DE221340FF10061BE8C /* LaunchScreen.storyboard in Resources */,
+				50836E06213438F30061BE8C /* classes in Resources */,
 				50836DDF21340FF10061BE8C /* Assets.xcassets in Resources */,
 				50836DDD21340FF10061BE8C /* Main.storyboard in Resources */,
 			);
@@ -256,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50836DDA21340FF10061BE8C /* ViewController.swift in Sources */,
 				50836DD821340FF10061BE8C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
